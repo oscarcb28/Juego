@@ -1,0 +1,14 @@
+.seleccion{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.descripcion{
+    display: list-item;
+    align-items: left;
+    justify-items: left;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+}

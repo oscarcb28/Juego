@@ -1,0 +1,26 @@
+<div class="todo">
+    <div>Elige tu personaje:</div>
+    <div class="seleccion">
+        <div><button  (click)="antPj()" class="boton">🢀</button></div>
+        <app-descripcion1 class="personaje" [personaje]="personajes[id_personaje - 1]"></app-descripcion1>
+        <div><button  (click)="sigPj()" class="boton">🢂</button></div>
+    </div>
+    <div>
+        <p>Selecciona Escenario:</p>
+        <p *ngIf="id_escenario==1">Campo de Batalla</p>
+        <p *ngIf="id_escenario==2">Dreamland</p>
+        <p *ngIf="id_escenario==3">Destino Final</p>
+        <p *ngIf="id_escenario==4">Fuente de los Deseos</p>
+        <p *ngIf="id_escenario==5">La historia de Yoshi</p>
+        <div class="selEs">
+            <button  (click)="antEs()" class="boton">🢀</button>
+            <img src="\assets\fondos\campo.png" class="escenario" *ngIf="id_escenario==1">
+            <img src="\assets\fondos\dreamland.png" class="escenario" *ngIf="id_escenario==2">
+            <img src="\assets\fondos\final.png" class="escenario" *ngIf="id_escenario==3">
+            <img src="\assets\fondos\fuente.png" class="escenario" *ngIf="id_escenario==4">
+            <img src="\assets\fondos\yoshi.png" class="escenario" *ngIf="id_escenario==5">
+            <button  (click)="sigEs()" class="boton">🢂</button>
+        </div>
+    </div>
+</div>
+

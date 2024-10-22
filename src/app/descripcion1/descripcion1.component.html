@@ -1,0 +1,12 @@
+<div class="contenedor">
+    <div class="arriba">
+        <div><img [src]="personaje.imagen" class="img"></div>
+        <div [ngStyle]="{'color': personaje.fondo}">
+            <div class="titulo">{{personaje.nombre}}</div>
+            <div class="subtitulo">{{personaje.subtitulo}}</div>
+        </div>
+    </div>
+    <div class="descripcion">
+        {{personaje.descripcion}}
+    </div>
+</div>

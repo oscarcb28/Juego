@@ -1,0 +1,36 @@
+.contenedor {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.arriba {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    width: 86px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.titulo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.subtitulo {
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.descripcion {
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: #ffffff;
+}

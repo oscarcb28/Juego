@@ -1,0 +1,41 @@
+.todo {
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+.seleccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.boton:hover {
+    background-color: #3f3a3a;
+}
+
+.escenario1{
+    background-image: url(src\assets\fondos\campo.png);
+}
+
+.selEs{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.escenario{
+    height: 100px;
+    width: 150px;
+}
